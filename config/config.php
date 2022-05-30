@@ -1,6 +1,6 @@
 <?php
 /** URLs */
-define('URL','http://localhost:8080/expense-app/');
+define('URL','http://localhost:8082/mvc-php/');
 define('VIEWS_DIR',URL . 'views');
 define('MODS_DIR',URL . 'models');
 define('CTRLS_DIR',URL . 'controllers');

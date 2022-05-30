@@ -24,6 +24,7 @@
         error = false;
     
     function ingresarEmail(e){
+        console.log(url);
         let Email = inp_email.value;
         if(!error){
             if(!validateEmail(Email)){
