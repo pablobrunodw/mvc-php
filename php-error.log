@@ -1,0 +1,16 @@
+[28-May-2022 10:10:55 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method Login::loadModel() in C:\xampp\htdocs\expense-app\libs\app.php on line 19
+[28-May-2022 10:13:57 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method Login::render() in C:\xampp\htdocs\expense-app\libs\app.php on line 31
+[28-May-2022 10:15:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined method Login::render() in C:\xampp\htdocs\expense-app\libs\app.php on line 31
+[28-May-2022 10:17:24 America/Argentina/Buenos_Aires] PHP Warning:  require_once(views/login7index.php): failed to open stream: No such file or directory in C:\xampp\htdocs\expense-app\libs\view.php on line 12
+[28-May-2022 10:17:24 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'views/login7index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expense-app\libs\view.php on line 12
+[28-May-2022 10:18:38 America/Argentina/Buenos_Aires] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in C:\xampp\htdocs\expense-app\libs\view.php on line 12
+[28-May-2022 10:18:38 America/Argentina/Buenos_Aires] PHP Warning:  require_once(http://localhost:8080/expense-app/views/login/index.php): failed to open stream: no suitable wrapper could be found in C:\xampp\htdocs\expense-app\libs\view.php on line 12
+[28-May-2022 10:18:38 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'http://localhost:8080/expense-app/views/login/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\expense-app\libs\view.php on line 12
+[28-May-2022 14:56:47 America/Argentina/Buenos_Aires] Controlador publicDesconocido
+[28-May-2022 15:01:51 America/Argentina/Buenos_Aires] Controlador publicDesconocido
+[28-May-2022 15:02:47 America/Argentina/Buenos_Aires] Controlador publicDesconocido
+[28-May-2022 15:03:28 America/Argentina/Buenos_Aires] Controlador publicDesconocido
+[28-May-2022 15:04:20 America/Argentina/Buenos_Aires] Controlador publicDesconocido
+[28-May-2022 15:06:07 America/Argentina/Buenos_Aires] Controlador URLcontrollersDesconocido
+[28-May-2022 15:06:10 America/Argentina/Buenos_Aires] Controlador URLcontrollersDesconocido
+[28-May-2022 19:46:18 America/Argentina/Buenos_Aires] Controlador dsadsaDesconocido
