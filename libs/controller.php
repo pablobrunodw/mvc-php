@@ -46,8 +46,15 @@ class Controller
         return $_POST[$val];
     }
 
-    public function redirect($url,$mensajes)
+    public function redirect($route,$mensajes)
     {
-        
+        $params = '';
+        $data = [];
+        foreach ($mensajes as $key => $msj) {
+            $data[] = $key . '=' . $msj;
+        }
+        $params = join('&',$data);
+        if ($params !== '') $params = '?' . $params;
+        header('Location: ' . URL . $route . $params);
     }
 }

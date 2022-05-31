@@ -1,6 +1,8 @@
 <?php
 /** URLs */
-define('URL','http://localhost:8082/mvc-php/');
+define('HOME',true);
+$port = (HOME) ? '8080' : '8082';
+define('URL','http://localhost:' . $port . '/mvc-php/');
 define('VIEWS_DIR',URL . 'views');
 define('MODS_DIR',URL . 'models');
 define('CTRLS_DIR',URL . 'controllers');
