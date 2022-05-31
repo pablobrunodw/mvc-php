@@ -43,4 +43,24 @@ class View
             $this->s['success'] = $success->get($hash);
         }
     }
+
+    private function showErrors()
+    {
+        if (array_key_exists('erros',$this->d)) {
+            echo '<div class="error">'.$this->d['error'].'</div>';
+        }
+    }
+    
+    private function showSuccess()
+    {
+        if (array_key_exists('success',$this->d)) {
+            echo '<div class="success">'.$this->d['success'].'</div>';
+        }
+    }
+
+    public function showMessages()
+    {
+        $this->showErrors();
+        $this->showSuccess();
+    }
 }
