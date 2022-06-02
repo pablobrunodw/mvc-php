@@ -1,7 +1,8 @@
 <?php include_once './views/shared/_head.php'; ?>
 <div class="login-container">
     <div class="login">
-        <i class="dashicons dashicons-businessman form__avatar"></i>
+        <!-- <i class="dashicons dashicons-businessman form__avatar"></i> -->
+        <img class="form__avatar" src="<?php echo URL ?>public/img/icons/instagram_g_s.gif" alt="">
         <div class="form__content">
             <h2 class="text-white">Iniciar Sesión</h2>
             <div class="form__group field">
