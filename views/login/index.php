@@ -2,7 +2,8 @@
 <div class="login-container">
     <div class="login">
         <!-- <i class="dashicons dashicons-businessman form__avatar"></i> -->
-        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/instagram_g_s.gif?v=123456" alt="">
+        <img class="form__avatar" src="<?php echo URL ?>public/img/icons/brindis.png?v=123456" alt="">
+        <img class="form__avatar" src="<?php echo URL ?>public/img/icons/brindis-g.png?v=123456" alt="">
         <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
         <lord-icon
             src="https://cdn.lordicon.com/nkmsrxys.json"
