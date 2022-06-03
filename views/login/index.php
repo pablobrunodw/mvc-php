@@ -2,8 +2,23 @@
 <div class="login-container">
     <div class="login">
         <!-- <i class="dashicons dashicons-businessman form__avatar"></i> -->
-        <img class="form__avatar" src="<?php echo URL ?>public/img/icons/instagram_g_s.gif" alt="">
-        <div class="form__content">
+        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/instagram_g_s.gif?v=123456" alt="">
+        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+        <lord-icon
+            src="https://cdn.lordicon.com/nkmsrxys.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style="width:75px;height:75px">
+        </lord-icon>
+        <lord-icon
+            src="https://cdn.lordicon.com/vixtkkbk.json"
+            trigger="loop"
+            colors="primary:#ffffff,secondary:#ffffff"
+            style="width:75px;height:75px">
+        </lord-icon>
+        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/61-camera-outline_s.gif?v=123456" alt="">
+        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/animated.png?v=123456" alt="">
+        <!-- <div class="form__content">
             <h2 class="text-white">Iniciar Sesión</h2>
             <div class="form__group field">
                 <input type="text" autocomplete="off" class="form__field" placeholder="Email" name="inp_email" id='inp_email'  onkeyup="ingresarEmail(event)" />
@@ -16,7 +31,7 @@
             <div class="alert" id="error_label">
             </div>
             <button type="button" class="btn btn-block bg-blue">INGRESAR</button>
-        </div>
+        </div> -->
     </div>
 </div>
 <script>
