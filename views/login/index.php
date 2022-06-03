@@ -16,8 +16,6 @@
             colors="primary:#ffffff,secondary:#ffffff"
             style="width:75px;height:75px">
         </lord-icon>
-        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/61-camera-outline_s.gif?v=123456" alt="">
-        <img class="form__avatar" style="width:50px;height:auto;" src="<?php echo URL ?>public/img/icons/animated.png?v=123456" alt="">
         <!-- <div class="form__content">
             <h2 class="text-white">Iniciar Sesión</h2>
             <div class="form__group field">
